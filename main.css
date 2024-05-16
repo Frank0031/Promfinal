@@ -1,0 +1,159 @@
+h1{
+    font-size: 40px;
+}
+
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body fills the viewport height */
+}
+
+.title_container h1.main_header {
+    font-family: 'Parisienne', cursive; /* Specify the romantic font */
+    /* Add any other styles you want for the header */
+}
+
+.main_header {
+    text-align: center;
+    font-size: 100px;
+    margin: 20px;
+}
+
+.sectional_header{
+    text-align: left; 
+}
+
+.about_me_container{
+    display: flex; /* Use flexbox to make the children elements flex items */
+}
+
+.title_screen {
+    height: 100vh; /* 100% of viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7D9E3;        ;
+}
+
+.title_container{
+    display: flex; /* Use flexbox to arrange items horizontally */
+    align-items: center; /* Center items vertically */
+    justify-content: center;
+}
+
+.column_text {
+    margin:10px;
+    padding: 20px; 
+}
+
+.image_holder {
+    flex: 1;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    padding: 20px; /* Add paddg to the image holder for spacing */
+}
+
+.image_holder img {
+    object-fit: cover; /* Ensures the image covers the entire container */
+}
+
+
+li{
+    margin:40px;
+}
+
+.about_me_list {
+    font-size: 25px; /* Set the font size to 18 pixels */
+}
+
+#aboutMe{
+    height: 100vh;
+}
+
+
+.reasons {
+    margin: 20px;
+    margin-top:150px;
+    margin-bottom:60px;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#contact > header {
+    margin-bottom: 60px; /* Adjust margin as needed */
+}
+
+.button-container {
+    display: flex;
+}
+
+.reasons1 {
+    margin-top:100px;
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    justify-content: center; /* Distribute space evenly between items */
+    height: 75vh;
+}
+
+.reasons1 div {
+    margin-right: 300px; /* Default margin */
+}
+
+.reasons1 h2 {
+    margin-left: 300px; /* Default margin */
+}
+
+.reasons2{
+    height: 75vh;
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    justify-content: center; /* Distribute space evenly between items */
+}
+
+.reasons2 div {
+    margin-left: 300px; /* Default margin */
+}
+
+.reasons2 h2 {
+    margin-right: 300px; /* Default margin */
+}
+
+button {
+    display: inline-block;
+    width: 100px; /* Adjust button width as needed */
+    height: 40px; /* Adjust button height as needed */
+    margin: 0 10px; /* Adjust margin between buttons */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 150px; /* Adjust width as needed */
+    height: 60px; /* Adjust height as needed */
+    margin: 0 10px; /* Adjust margin as needed */
+
+}
+
+.yes-button {
+    background-color: #28a745; /* Green background color for the "Yes" button */
+}
+
+.no-button {
+    background-color: #dc3545; /* Red background color for the "No" button */
+}
+
+.yes-button:hover {
+    background-color: #218838; /* Darker green on hover for the "Yes" button */
+}
+
+.no-button:hover {
+    background-color: #c82333; /* Darker red on hover for the "No" button */
+}
